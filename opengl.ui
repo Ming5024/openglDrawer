@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>openglClass</class>
+ <widget class="QMainWindow" name="openglClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>819</width>
+    <height>709</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>opengl</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="Line">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/opengl/Resources/line.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="glview" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>30</y>
+      <width>600</width>
+      <height>600</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Triangle">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>80</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/opengl/Resources/Triangle.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Circle">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/opengl/Resources/circle.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Rect">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>130</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/opengl/Resources/square.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RoundRect">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/opengl/Resources/RoundRect.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Move">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>290</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Move</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Delete">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>340</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>440</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/opengl/Resources/white.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>440</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/opengl/Resources/yellow.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>490</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/opengl/Resources/red.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>490</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/opengl/Resources/grey.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>540</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/opengl/Resources/deepgrey.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>91</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Robot</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Arc">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>180</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/opengl/Resources/arc.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>400</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Color:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Type:</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>819</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>File</string>
+    </property>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>glview</class>
+   <extends>QWidget</extends>
+   <header>glview.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="opengl.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Line</sender>
+   <signal>clicked()</signal>
+   <receiver>openglClass</receiver>
+   <slot>drawLine()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>56</x>
+     <y>78</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>14</x>
+     <y>53</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Triangle</sender>
+   <signal>clicked()</signal>
+   <receiver>openglClass</receiver>
+   <slot>drawTriangle()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>56</x>
+     <y>130</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-3</x>
+     <y>146</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Circle</sender>
+   <signal>clicked()</signal>
+   <receiver>openglClass</receiver>
+   <slot>drawCircle()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>42</x>
+     <y>166</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>183</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Rect</sender>
+   <signal>clicked()</signal>
+   <receiver>openglClass</receiver>
+   <slot>drawRect()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>24</x>
+     <y>202</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>221</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>RoundRect</sender>
+   <signal>clicked()</signal>
+   <receiver>openglClass</receiver>
+   <slot>drawRoundRect()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>87</x>
+     <y>244</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-5</x>
+     <y>264</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Move</sender>
+   <signal>clicked()</signal>
+   <receiver>openglClass</receiver>
+   <slot>move()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>51</x>
+     <y>384</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>347</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Delete</sender>
+   <signal>clicked()</signal>
+   <receiver>openglClass</receiver>
+   <slot>deletes()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>68</x>
+     <y>432</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>8</x>
+     <y>411</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>openglClass</receiver>
+   <slot>white()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>27</x>
+     <y>497</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>472</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>openglClass</receiver>
+   <slot>yellow()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>105</x>
+     <y>503</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>54</x>
+     <y>467</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>openglClass</receiver>
+   <slot>red()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>49</x>
+     <y>559</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>10</x>
+     <y>534</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>openglClass</receiver>
+   <slot>grey()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>95</x>
+     <y>564</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>72</x>
+     <y>531</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>openglClass</receiver>
+   <slot>darkgrey()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>616</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>9</x>
+     <y>593</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Arc</sender>
+   <signal>clicked()</signal>
+   <receiver>openglClass</receiver>
+   <slot>drawArc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>59</x>
+     <y>282</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>14</x>
+     <y>268</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>drawLine()</slot>
+  <slot>drawSquare()</slot>
+  <slot>drawTriangle()</slot>
+  <slot>drawCircle()</slot>
+  <slot>drawRect()</slot>
+  <slot>drawRoundRect()</slot>
+  <slot>move()</slot>
+  <slot>deletes()</slot>
+  <slot>white()</slot>
+  <slot>yellow()</slot>
+  <slot>red()</slot>
+  <slot>grey()</slot>
+  <slot>darkgrey()</slot>
+  <slot>drawArc()</slot>
+ </slots>
+</ui>

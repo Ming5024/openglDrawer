@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/opengl">
+        <file>Resources/line.png</file>
+        <file>Resources/black.png</file>
+        <file>Resources/circle.png</file>
+        <file>Resources/deepgrey.png</file>
+        <file>Resources/grey.png</file>
+        <file>Resources/RoundRect.png</file>
+        <file>Resources/square.png</file>
+        <file>Resources/Triangle.png</file>
+        <file>Resources/white.png</file>
+        <file>Resources/arc.png</file>
+        <file>Resources/red.png</file>
+        <file>Resources/yellow.png</file>
+    </qresource>
+</RCC>
